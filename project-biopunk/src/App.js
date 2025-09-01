@@ -2,6 +2,8 @@ import React, {useEffect} from 'react';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
+import Informacoes from './pages/informacoes/informacoes.js';
+import Personagens from './pages/personagens/personagens.js';
 import Criacao_de_Personagem from "./pages/criacao_de_personagem/Criacao_de_personagem";
 import Home from './pages/home/home';
 
