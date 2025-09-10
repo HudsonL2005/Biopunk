@@ -1,10 +1,16 @@
-import React, {useEffect} from 'react';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import styles from '../../style/coisa.css'
+import styles from '../../style/criacao_de_personagem.module.css'
 
 function criacao_de_personagens() {
   return (
-    <h1>Criação de personagens</h1>
+    <div className="criacao_de_personagem">
+      <h1>Criação de personagens</h1>
+      <div className={styles.hexagonoContainer}>
+        <div className={styles.hexagonoContainerTest}>
+        </div>
+        <div className={styles.hexagonoContainerTest2}>
+        </div>
+      </div>
+    </div>
   );
 }
 

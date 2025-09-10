@@ -1,0 +1,21 @@
+.hexagonoContainer {
+  height: 200px;
+  aspect-ratio: 1/cos(30deg);
+  clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+  background: #3B8686;
+  z-index: 0;
+}
+
+.hexagonoContainerTest {
+  aspect-ratio: 1/cos(30deg);
+  clip-path: polygon(25% 0, 75% 0, 87% 25%, 13% 25%);
+  background: #fff;
+  z-index: 2
+}
+
+.hexagonoContainerTest2 {
+  aspect-ratio: 1/cos(30deg);
+  clip-path: polygon(89% 76%, 75% 100%, 25% 100%, 12% 76%);
+  background: #ccc;
+  z-index: 1
+}
